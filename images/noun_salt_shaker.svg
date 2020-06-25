@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="noun_salt shaker.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:window-height="1174"
+     inkscape:window-width="1252"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="418.96814"
+     inkscape:cx="394.80772"
+     inkscape:zoom="1.6310048"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(1.9559436,0,0,1.993885,14.615712,12.614867)"
+       id="g56">
+      <path
+         d="m 83.12,57.52 a 3.2,3.2 0 0 0 -2.34,-1.84 3,3 0 0 0 -2.64,0.81 l -0.93,0.93 -4,-4 A 5.41,5.41 0 0 0 72.44,47.56 L 40.76,10.87 A 5.4,5.4 0 0 0 32.85,10.58 L 12.06,31.37 a 5.4,5.4 0 0 0 0.29,7.91 L 49.06,71 a 5.35,5.35 0 0 0 5.85,0.76 l 4,4 -0.93,0.93 a 3,3 0 0 0 -0.81,2.64 3.2,3.2 0 0 0 1.83,2.31 16.6,16.6 0 0 0 3.13,1 17,17 0 0 0 3.8,0.42 18.74,18.74 0 0 0 13.15,-5.52 18.12,18.12 0 0 0 4.04,-20.02 z m -32,11.13 -36.76,-31.7 A 2.32,2.32 0 0 1 14.23,33.56 L 35,12.76 a 2.29,2.29 0 0 1 1.64,-0.68 h 0.09 a 2.3,2.3 0 0 1 1.67,0.8 L 70.12,49.6 A 2.33,2.33 0 0 1 70,52.75 L 54.23,68.53 a 2.33,2.33 0 0 1 -3.15,0.11 z M 71.32,55.86 75,59.57 61.05,73.52 57.33,69.8 Z m 5.62,19.56 a 15.34,15.34 0 0 1 -14.08,4.27 13.51,13.51 0 0 1 -2.55,-0.85 0.13,0.13 0 0 1 -0.06,-0.05 l 20,-20 a 0.13,0.13 0 0 1 0.05,0.06 15,15 0 0 1 -3.41,16.56 z"
+         id="path12" />
+      <circle
+         cx="75.209999"
+         cy="73.480003"
+         r="1.54"
+         transform="rotate(-45,75.205877,73.478706)"
+         id="circle14" />
+      <circle
+         cx="70.25"
+         cy="76.43"
+         r="1.54"
+         transform="rotate(-45,70.249115,76.431864)"
+         id="circle16" />
+      <circle
+         cx="78.279999"
+         cy="68.449997"
+         r="1.54"
+         transform="rotate(-45,78.280851,68.44501)"
+         id="circle18" />
+      <circle
+         cx="83.68"
+         cy="78.25"
+         r="1.54"
+         transform="rotate(-45,83.681396,78.248031)"
+         id="circle20" />
+      <circle
+         cx="77.07"
+         cy="83.699997"
+         r="1.54"
+         transform="rotate(-45,77.068507,83.697179)"
+         id="circle22" />
+      <circle
+         cx="82.410004"
+         cy="83.989998"
+         r="1.54"
+         transform="rotate(-45,82.407939,83.985514)"
+         id="circle24" />
+      <circle
+         cx="87.980003"
+         cy="89.459999"
+         r="1.54"
+         transform="rotate(-45,87.987382,89.464433)"
+         id="circle26" />
+      <circle
+         cx="87.279999"
+         cy="83.290001"
+         r="1.54"
+         transform="rotate(-45,87.278965,83.287869)"
+         id="circle28" />
+      <circle
+         cx="81.800003"
+         cy="89.269997"
+         r="1.54"
+         transform="rotate(-45,81.804899,89.265302)"
+         id="circle30" />
+    </g>
+  </g>
+</svg>
