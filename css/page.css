@@ -1,0 +1,137 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 1.4em;
+	font-family: 'Varela Round', sans-serif;
+  	font-weight: bold;
+  	padding: 0;
+  	margin: 0;
+}
+
+.container {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(150px, auto);
+	grid-gap: 10px;
+	grid-template-areas: 
+	  "header" 
+	  "nav" 
+	  "main"
+	  "aside"
+	  "footer";
+  }
+  
+  .header {
+	grid-area: header;
+  }
+  
+  .nav {
+	grid-area: nav;
+  }
+  
+  .main {
+	grid-area: main;
+  }
+  
+  .aside {
+	grid-area: aside;  
+  }
+  
+  .footer {
+	grid-area: footer;
+  }
+
+  /* ===================================== 
+   Grid Layout
+======================================== */
+
+.container > * {
+  color: rgb(255, 0, 0);
+  text-shadow: 0 2px 0 rgba(110,133,156,0.12);
+  padding: 0.85em;
+  border: solid 1px rgba(110,133,156,0.15);
+}
+
+header {
+  background-color: #ffe0ed;
+}
+nav {
+  background-color: #fbaea8;
+}
+main {
+  background-color: #aad2ed;  
+}
+aside {
+  background-color: #6ad78a; 
+}
+footer {
+  background-color: #6e859c;
+}
+
+
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 150px;
+}
+.headline {
+	margin-bottom: 0;
+}
+.feat-img {
+	border-radius: 5px;
+}
+.footer-image {
+    width: 50px;
+}
+
+/* ---- Navigation ---- */
+
+.nav {
+	font-size: 1.35em;
+	margin-top: 5px;
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+	font-size: .95em;
+	color: #d60202;
+	text-transform: uppercase;
+	text-decoration: none
+}
+.nav a:hover {
+	color: #242424;
+}
+
+  /* ===================================== 
+   Media Inqueries
+======================================== */
+
+
+@media (min-width: 768px) {
+	.container {
+	  grid-template-columns: 1fr 2fr 1fr;
+	  grid-template-rows: 100px minmax(150px, auto) 100px;
+	  grid-template-areas: 
+		"header header header"
+		"nav main aside"
+		"footer footer footer";
+	}
+  }
+  
+  @media (min-width: 992px) {
+	.container {
+	  grid-template-areas: 
+		"header header header"
+		"nav main aside"
+		"nav footer footer";
+	}
+  }
+  
+  
+  
