@@ -13,6 +13,33 @@ body {
   	margin: 0;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+
+  p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+h2,
+h3,
+a {
+	color: #000000;
+}
+h2,
+h3 {
+	margin-top: 0;
+}
+a {
+	color: #d60202; 
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
 .container {
 	height: 100vh;
 	display: grid;
@@ -29,22 +56,32 @@ body {
   
   .header {
 	grid-area: header;
+	display: flex; 
+	align-items: center;
   }
   
   .nav {
 	grid-area: nav;
+	display: flex; 
+	align-items: inline;
   }
   
   .main {
 	grid-area: main;
+	display: flex; 
+	align-items: left;
   }
-  
+
   .aside {
-	grid-area: aside;  
+	grid-area: aside;
+	display: flex; 
+	align-items: center;
   }
   
   .footer {
 	grid-area: footer;
+	display: flex; 
+	align-items: center;
   }
 
   /* ===================================== 
@@ -81,8 +118,9 @@ footer {
 .logo {
 	width: 150px;
 }
-.headline {
-	margin-bottom: 0;
+.name {
+	font-size: 1.35em;
+	margin: 0;
 }
 .feat-img {
 	border-radius: 5px;
@@ -93,20 +131,25 @@ footer {
 
 /* ---- Navigation ---- */
 
-.nav {
+.main-nav a {
 	font-size: 1.35em;
 	margin-top: 5px;
 	text-align: center;
-	display: block;
+	display: inline-block;
 	padding: 10px 15px;
 	font-size: .95em;
 	color: #d60202;
 	text-transform: uppercase;
-	text-decoration: none
+	text-decoration: none;
+	list-style-type: none;
+	
 }
-.nav a:hover {
+.main-nav a:hover {
 	color: #242424;
+	text-decoration: none;
+	list-style-type: none;
 }
+
 
   /* ===================================== 
    Media Inqueries
@@ -118,8 +161,8 @@ footer {
 	  grid-template-columns: 1fr 2fr 1fr;
 	  grid-template-rows: 100px minmax(150px, auto) 100px;
 	  grid-template-areas: 
-		"header header header"
-		"nav main aside"
+		"header header nav"
+		"main main aside"
 		"footer footer footer";
 	}
   }
@@ -127,9 +170,9 @@ footer {
   @media (min-width: 992px) {
 	.container {
 	  grid-template-areas: 
-		"header header header"
-		"nav main aside"
-		"nav footer footer";
+	  "header header nav"
+	  "main main aside"
+	  "footer footer footer";
 	}
   }
   
