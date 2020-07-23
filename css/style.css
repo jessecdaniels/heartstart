@@ -10,6 +10,7 @@ body {
 	line-height: 1.6;
 	color: #d60202;
 	margin: 0;
+	display: grid;
 }
 
 ul {
@@ -107,35 +108,35 @@ img {
     width: 50px;
 }
 
-/* Use a collapsed column to break to a new column */
+/* Using a collapsed column to break to a new column */
 
-.break {
+/* .break {
 	flex-basis: 100%;
 	width: 0;
-  }
+} */
 
 /* Form Fields -------------------- */
 
 input,
 textarea {
-  font-size: 1em;
-  color: #222;
-  font-weight: 300; 
-  width: 100%;
-  border: none;
-  height: auto;
-  padding: 15px;
-  outline: 0;
-  margin-bottom: 1.2em;
-  border-radius: .3em;
-  border-bottom: 3px solid rgba(0,0,0, 0.05);
-  background-color: #e8eeef;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	font-size: 1em;
+	color: #222;
+	font-weight: 300; 
+	width: 100%;
+	border: none;
+	height: auto;
+	padding: 15px;
+	outline: 0;
+	margin-bottom: 1.2em;
+	border-radius: .3em;
+	border-bottom: 3px solid rgba(0,0,0, 0.05);
+	background-color: #e8eeef;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 }
 
 label {
-  display: block;
-  margin-bottom: 0.5em; 
+	display: block;
+	margin-bottom: 0.5em; 
 }
 
 /* ================================= 
