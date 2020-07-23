@@ -14,6 +14,8 @@ body {
 }
 
 ul {
+	display: flex; 
+	flex-direction: row;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -121,6 +123,8 @@ footer {
 .name {
 	font-size: 1.35em;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 .feat-img {
 	border-radius: 5px;
@@ -134,8 +138,8 @@ footer {
 .main-nav a {
 	font-size: 1.35em;
 	margin-top: 5px;
-	text-align: center;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	padding: 10px 15px;
 	font-size: .95em;
 	color: #d60202;
