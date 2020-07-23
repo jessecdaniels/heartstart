@@ -13,6 +13,10 @@ body {
 	display: grid;
 }
 
+name {
+	display: flex;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -38,16 +42,13 @@ img {
 	max-width: 100%;
 }
 
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
 /* ---- Navigation ---- */
 
-.name {
-	font-size: 1.35em;
-	margin: 0;
-}
 .main-nav {
 	margin-top: 5px;
 }
@@ -78,10 +79,12 @@ img {
     
 }
 .banner {
-	color: #fff;
-	background: rgb(255, 174, 174);
-	padding: 3.2em 0;
-	margin-bottom: 48px;
+	background: rgb(255, 231, 231);
+	padding: .5em 0;
+	margin-bottom: 40px;
+	-webkit-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.65);
+	-moz-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.65);
+	box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.65);
 }
 .col {
 	padding-right: 2em;
@@ -93,19 +96,37 @@ img {
 	margin-top: 30px;
 }
 
+.name {
+	font-size: 1.35em;
+	margin: 0;
+}
+
 /* ---- Page Elements ---- */
 
 .logo {
 	width: 150px;
+	margin-top: 20px;
+	margin-left: 20px;
+	
 }
 .headline {
+	font-size: 100px;
 	margin-bottom: 0;
-}
+	text-decoration: none;
+	color: #000000;
+	text-shadow: 2px 2px #ffffff;
+	}
+
 .feat-img {
 	border-radius: 5px;
 }
 .footer-image {
     width: 50px;
+}
+
+.tagline {
+	font-size: 24px;
+	color: #242424;
 }
 
 /* Using a collapsed column to break to a new column */
@@ -147,7 +168,8 @@ label {
 
 	.main-header,
 	.main-nav,
-	.row {
+	.row 
+	.main-header {
 		display: flex;
 		flex-wrap: wrap;
 	}
