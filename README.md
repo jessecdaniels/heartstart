@@ -8,7 +8,7 @@ I have succesfully tested the site on Safari, Chrome, and Mozzila so far. Also o
  
 ### Features
 
-Validates form, media queries (ADDING MORE HERE NEXT WEEK)
+Contact form validates input with javascript file, media queries, flexbox layouts
 
 ## Authors
 
