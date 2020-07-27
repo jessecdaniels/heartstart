@@ -80,7 +80,7 @@ img {
 }
 .banner {
 	background: rgb(255, 231, 231);
-	padding: .5em 0;
+	padding: .5em .5em .5em .5em;
 	margin-bottom: 40px;
 	-webkit-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.65);
 	-moz-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.65);
@@ -129,7 +129,7 @@ img {
 	color: #242424;
 }
 
-/* Using a collapsed column to break to a new column */
+/* Was using a collapsed column to break to a new column fixed this with a row class*/
 
 /* .break {
 	flex-basis: 100%;
