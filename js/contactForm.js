@@ -10,7 +10,7 @@ function validateForm() {
         alert("Last name must be filled out");
         return false;
     } else if (validate != 4) {
-        alert("You're bad at math, try again");
+        alert("Maybe math is not your strong suit? Please try again.");
         return false;
     }
 }
