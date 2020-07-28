@@ -27,6 +27,7 @@ h3,
 a {
 	color: #000000;
 }
+h1,
 h2,
 h3 {
 	margin-top: 0;
@@ -59,6 +60,7 @@ img {
 .main-nav a:hover {
 	color: #242424;
 }
+
 
 /* ---- Layout Containers ---- */
 
@@ -117,6 +119,20 @@ img {
 	color: #242424;
 }
 
+  /* Create four equal columns that sits next to each other */
+  .column {
+	flex: 25%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	padding: 0 10px;
+  }
+  
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
 
 /* Was using a collapsed column to break to a new column fixed this with a row class*/
 
@@ -166,7 +182,7 @@ label {
 	.row, 
 	.main-header {
 		display: flex;
-		/* flex-wrap: wrap; */
+
 	}
 	.main-header {
 		flex-direction: column;
@@ -180,8 +196,9 @@ label {
 		flex-direction: row;
 		justify-content: space-between;
 	}
-
-	.primary-col {
-		flex: 1;
-	}		
+	.row {
+		width: 80%;
+		flex-direction: row;
+		justify-content: space-between;
+		
 }
