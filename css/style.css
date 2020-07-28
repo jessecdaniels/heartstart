@@ -13,10 +13,6 @@ body {
 	display: grid;
 }
 
-name {
-	display: flex;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -52,13 +48,10 @@ img {
 .main-nav {
 	margin-top: 5px;
 }
-.name a,
 .main-nav a {
 	text-align: center;
 	display: block;
 	padding: 10px 15px;
-}
-.main-nav a {
 	font-size: .95em;
 	color: #d60202;
 	text-transform: uppercase;
@@ -75,12 +68,11 @@ img {
 }
 .banner,
 .main-footer {
-    text-align: center;
-    
+	text-align: center;
 }
 .banner {
 	background: rgb(255, 231, 231);
-	padding: .5em .5em .5em .5em;
+	padding: .5em 0em;
 	margin-bottom: 40px;
 	-webkit-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.65);
 	-moz-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.65);
@@ -96,10 +88,6 @@ img {
 	margin-top: 30px;
 }
 
-.name {
-	font-size: 1.35em;
-	margin: 0;
-}
 
 /* ---- Page Elements ---- */
 
@@ -128,6 +116,7 @@ img {
 	font-size: 24px;
 	color: #242424;
 }
+
 
 /* Was using a collapsed column to break to a new column fixed this with a row class*/
 
@@ -164,6 +153,12 @@ label {
   Media Queries
 ==================================== */
 
+/* @media (max-width 769px) {
+
+	.main-header {
+		align-items: center;
+} */
+
 @media (min-width: 769px) {
 
 	.main-header,
@@ -177,10 +172,6 @@ label {
 		flex-direction: column;
 		align-items: center;
 	}
-
-	.col {
-		flex: 1;
-	}
 }
 
 @media (min-width: 1025px) {
@@ -190,8 +181,7 @@ label {
 		justify-content: space-between;
 	}
 
-	.primary {
+	.primary-col {
 		flex: 1;
-	}
-
+	}		
 }
