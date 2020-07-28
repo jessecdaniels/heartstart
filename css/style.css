@@ -163,10 +163,10 @@ label {
 
 	.main-header,
 	.main-nav,
-	.row 
+	.row, 
 	.main-header {
 		display: flex;
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
 	}
 	.main-header {
 		flex-direction: column;
