@@ -8,7 +8,7 @@
 body {
 	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
-	color: #d60202;
+	color: #202020;
 	margin: 0;
 	display: grid;
 }
@@ -39,6 +39,9 @@ img {
 	max-width: 100%;
 }
 
+footer {
+	align-items: center;
+}
 
 /* ================================= 
   Base Layout Styles
@@ -69,6 +72,7 @@ img {
 	padding-bottom: 2em;
 }
 .banner,
+.main-header
 .main-footer {
 	text-align: center;
 }
@@ -83,6 +87,7 @@ img {
 .col {
 	padding-right: 2em;
 	padding-left: 2em;
+	display: flex;
 }
 .main-footer {
 	background: #eeecec;
@@ -114,6 +119,10 @@ img {
     width: 50px;
 }
 
+.main-footer{
+	align-items: center;
+}
+
 .tagline {
 	font-size: 24px;
 	color: #242424;
@@ -133,13 +142,6 @@ img {
 	vertical-align: middle;
 	width: 100%;
   }
-
-/* Was using a collapsed column to break to a new column fixed this with a row class*/
-
-/* .break {
-	flex-basis: 100%;
-	width: 0;
-} */
 
 /* Form Fields -------------------- */
 
@@ -169,12 +171,6 @@ label {
   Media Queries
 ==================================== */
 
-/* @media (max-width 769px) {
-
-	.main-header {
-		align-items: center;
-} */
-
 @media (min-width: 769px) {
 
 	.main-header,
@@ -197,8 +193,7 @@ label {
 		justify-content: space-between;
 	}
 	.row {
-		width: 80%;
+		width: 100%;
 		flex-direction: row;
-		justify-content: space-between;
 		
 }
