@@ -87,12 +87,13 @@ footer {
 .col {
 	padding-right: 2em;
 	padding-left: 2em;
-	display: flex;
 }
 .main-footer {
 	background: #eeecec;
 	padding: 1em 0;
 	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -119,13 +120,11 @@ footer {
     width: 50px;
 }
 
-.main-footer{
-	align-items: center;
-}
-
 .tagline {
 	font-size: 24px;
 	color: #242424;
+	text-transform: lowercase;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
   /* Create four equal columns that sits next to each other */
